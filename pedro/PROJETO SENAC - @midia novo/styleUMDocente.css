@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.corpodocente {
+    background-color: #979797;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.docente {
+    width: 20vh;
+    height: 20vh;
+    /* border: 1px solid; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+#fotodocente {
+    width: 20vh;
+    height: 20vh;
+}
+#carddocente {
+
+    background: #ffffff;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    height: 60vh;
+    width: 50vh;
+    display: flex;
+    margin-top: 5px;
+}
+#infodocente {
+    /*  border: 1px solid; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 200px;
+    color: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vh;
+    height: 20vh;
+    gap: 0.5rem;
+}
+.adcionais {
+    /* border: 1px solid; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-top: 200px;
+    color: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48vh;
+    height: 35vh;
+}
+#h2 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
